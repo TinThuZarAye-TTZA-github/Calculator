@@ -1,0 +1,49 @@
+.calculator {
+  flex: 1;
+  text-align: center;
+}
+
+#btn {
+  border-radius: 30px 30px;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+}
+
+.btn-add:hover {
+  background-color: lightblue;
+  /* cursor: pointer; */
+}
+
+.btn-claculator:hover {
+  background-color: pink;
+}
+
+.btn-subtract:hover {
+  background-color: red;
+  /* cursor: pointer; */
+}
+.btn-multiply:hover {
+  background-color: blue;
+}
+
+.btn-divided:hover {
+  background-color: rgb(246, 141, 3);
+}
+
+.cal {
+  text-align: center;
+  font-size: 50px;
+  animation: blinker 2s linear infinite;
+}
+
+@keyframes cal {
+  from {
+    background-color: red;
+  }
+  to {
+    background-color: yellow;
+  }
+}

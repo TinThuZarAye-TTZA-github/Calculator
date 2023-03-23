@@ -1,0 +1,16 @@
+.header {
+  background-color: rgb(233, 233, 225);
+}
+
+.header > h1 {
+  text-align: center;
+  font-size: 50px;
+  animation: blinker 2s linear infinite;
+}
+
+@keyframes blinker {
+  50% {
+    opacity: 0;
+    color: rgb(47, 0, 255);
+  }
+}
